@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Slider</title>
+
+    <!-- import bootstrap 5 css from cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- import bootstrap javascript from cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- my own css for this project-->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+    <div class="slider-container" style="user-select: none;">
+        <h1 style="font-weight: bolder; text-decoration: underline;">Carousel Project</h1>
+        <div class="slider-content">
+            <div id="lclone" style="background-color: red;" class="content">
+                <h1>Slide : 4</h1>
+            </div>
+            <div style="background-color: black;" class="content">
+                <h1>Slide : 1</h1>
+            </div>
+            <div style="background-color: green;" class="content">
+                <h1>Slide : 2</h1>
+            </div>
+            <div style="background-color: blue;" class="content">
+                <h1>Slide : 3</h1>
+            </div>
+            <div style="background-color: red;" class="content">
+                <h1>Slide : 4</h1>
+            </div>
+            <div id="fclone" style="background-color: black;" class="content">
+                <h1>Slide : 1</h1>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev-btn" class="btn btn-lg btn-dark">Prev</button>
+            <button id="next-btn" class="btn btn-lg btn-dark">Next</button>
+        </div>
+    </div>
+
+    <!--my own havascipt for this prj-->
+    <script src="script.js"></script>
+</body>
+
+
+</html>
